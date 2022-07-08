@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  color: white;
+}
+
+.navbar > div {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
